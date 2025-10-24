@@ -31,8 +31,7 @@ This project demonstrates a complete **ETL (Extract, Transform, Load) pipeline**
 
 ## Pipeline Architecture
 
-```mermaid
-flowchart LR
+```
     A[Raw CSV file] --> B[Extract with pandas]
     B --> C[Transform (Clean & Standardize)]
     C --> D[Load to SQLite DB]
